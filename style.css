@@ -1,0 +1,61 @@
+:root {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    --text-primary:#1b1b1b;
+    --text-headline: #E1624F;
+    --text-secondary:#333333;
+    --accent-blue:#0C51A7;
+    --accent-purple:#591B98;
+    --accent-pink: #E5245E;
+    --accent-orange: #E95E10;
+}
+
+.headline {
+    color: var(--text-headline);
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--text-primary);
+}
+
+#subtitle {
+    font-size: 16px;
+    line-height: auto;
+    font-style: italic;
+    text-align: center;
+    margin-top: 24px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--text-primary);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--text-primary);
+}
+
+.content-card-item01 p span, .content-card-item02 p span {
+    color: var(--accent-blue);
+}
+
+.content-card-item03 .accent-purple {
+    color: var(--accent-purple);
+    
+}
+
+.content-card-item03 .accent-pink {
+    color: var(--accent-pink);
+}
+
+.content-card-item03 .accent-orange {
+    color: var(--accent-orange);
+}
