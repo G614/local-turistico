@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: normal;
-    color: #333333;
+    --backaground-default: #F5F4F0;
     --text-primary:#1b1b1b;
     --text-headline: #E1624F;
     --text-secondary:#333333;
@@ -10,6 +16,37 @@
     --accent-purple:#591B98;
     --accent-pink: #E5245E;
     --accent-orange: #E95E10;
+}
+
+#border-project {
+    padding: 80px;
+    background-color: var(--text-secondary);
+    border-radius: 40px;
+}
+
+#local-turistico {
+    margin: 0 auto;
+    padding: 5.5rem 5rem 4.0625rem;
+    background-color: var(--backaground-default);
+    border-radius: 20px;
+}
+
+#body {
+    background-color: #000000;
+}
+
+.title-page {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+img {
+    border-radius: 28px;
+    max-width: 100%;
 }
 
 .headline {
