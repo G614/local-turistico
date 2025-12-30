@@ -8,6 +8,7 @@
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: normal;
+    color: var(--text-secondary);
     --backaground-default: #F5F4F0;
     --text-primary:#1b1b1b;
     --text-headline: #E1624F;
@@ -20,7 +21,7 @@
 }
 
 #border-project {
-    padding: 80px;
+    padding: 1rem;
     background-color: var(--text-secondary);
     border-radius: 40px;
 }
@@ -29,7 +30,7 @@
     margin: 0 auto;
     padding: 5.5rem 5rem 0;
     background-color: var(--backaground-default);
-    border-radius: 20px;
+    border-radius: 28px;
 }
 
 #conteiner {
@@ -37,12 +38,30 @@
 }
 
 #body {
+    padding: 6rem 6.25rem 6rem;
     background-color: #000000;
+}
+
+/* Seção de introdução */
+#section-introduction {
+    margin-bottom: 40px;
 }
 
 .title-page {
     width: 100%;
     margin-bottom: 40px;
+}
+
+h1 {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--text-primary);
+}
+
+.headline {
+    color: var(--text-headline);
+    font-weight: bold;
 }
 
 .description-image {
@@ -54,31 +73,13 @@ img {
     width: 100%;
 }
 
-.headline {
-    color: var(--text-headline);
-    font-weight: bold;
-}
-
-h1 {
-    margin-top: 8px;
-    font-weight: bold;
-    font-size: 36px;
-    color: var(--text-primary);
-}
-
 #subtitle {
     font-size: 16px;
     line-height: auto;
     font-style: italic;
     text-align: center;
     margin: 24px 0px 4px;
-    color: var(--text-secondary);
-}
-
-/* Seção de introdução */
-
-#section-introduction {
-    margin-bottom: 40px;
+    /* color: var(--text-secondary); */
 }
 
 .content-list {
@@ -92,21 +93,7 @@ h1 {
     margin-bottom: 64px;
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 32px;
-    color: var(--text-primary);
-}
-
-h3 {
-    font-weight: bold;
-    font-size: 28px;
-    margin-bottom: 4px;
-    color: var(--text-primary);
-}
-
-/* Seção de destaque/atrações */
-
+/* Seção de destaques/atrações */
 #section-attraction {
     margin-bottom: 64px;
 }
@@ -116,10 +103,20 @@ h3 {
 }
 
 h2 {
+    font-weight: bold;
+    font-size: 32px;
     margin-top: 2px;
+    color: var(--text-primary);
 }
 
+
 /* Seção de lista de atrações */
+h3 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 4px;
+    color: var(--text-primary);
+}
 
 .card-travel-item01, .card-travel-item02 {
     margin-bottom: 48px;
@@ -129,13 +126,16 @@ h2 {
     margin-bottom: 20px;   
 }
 
-.content-card-item01 p span, .content-card-item02 p span {
+/* .content-card-item01 p ul, .content-card-item02 p ul {
+    color: var(--accent-blue);
+} */
+
+.content-card-item01 p ul .accent-blue::marker, .content-card-item02 p ul .accent-blue::marker {
     color: var(--accent-blue);
 }
 
 .content-card-item03 .accent-purple {
     color: var(--accent-purple);
-    
 }
 
 .content-card-item03 .accent-pink {
@@ -153,15 +153,11 @@ h2 {
     margin-bottom: 40px;
 }
 
-#paragraph-final {
-    color: var(--text-secondary);
-}
-
+/* Seção de rodapé */
 .footer {
     text-align: center;
     padding: 0 0 3rem;
     font-size: 14px;
-    color: var(--text-secondary);
 }
 
 .footer img {
