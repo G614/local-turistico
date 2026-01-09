@@ -16,6 +16,16 @@
 
 <br>
 
+## Tabela de Conteúdos
+
+* [Sobre](#-Sobre)
+* [Comece por aqui](#-Comece-por-aqui)
+* [Tecnologias utilizadas](#-Tecnologias-utilizadas)
+* [Pré-requisitos e como rodar a aplicação/testes](#-Pré-requisitos-e-como-rodar-a-aplicação/testes)
+* [Rodando o Front End (cliente)](#-Rodando-o-Front-End-(cliente))
+* [Licença](#-Licença)
+* [Autor](#-Autor)
+
 ## 📘 Sobre
 
 Este projeto é uma página web desktop com informações sobre um **local turístico**.
@@ -61,6 +71,25 @@ $ cd index.html
 
 # A maquina local inciará na porta:5500 - acesse <http://127.0.0.1:5500/> no browser
 ```
+
+## Autor
+
+<a href="">
+    <img style="border-radius: 50%; width: 25%;" src="https://avatars.githubusercontent.com/u/66787685?s=400&u=1db7d5e9c590d1047008c855845b88774715314f&v=4" />
+    <br>
+    <sub><b>Gabriel Bispo Ribeiro</b></sub></a> <a href="https://app.rocketseat.com.br/me/gabriel-bispo-ribeiro-1595723134" title="Rocketseat">🚀</a>
+<br><br>
+<p>Feito com ❤️ por Gabriel Bispo Ribeiro 👋 Entre em contato!</p>
+<br>
+
+![Static Badge](https://img.shields.io/badge/Gmail-gb.30ribeiro%40gmail-red?style=flat&logo=Gmail&logoColor=white&color=red&link=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Fogbl%23inbox) ![Static Badge](https://img.shields.io/badge/Facebook-gabriel.bisporibeiro.56-blue?style=flat&logo=Facebook&logoColor=white&labelColor=gray&color=blue&link=https%3A%2F%2Fwww.facebook.com%2Fgabriel.bisporibeiro.56%2F) ![Static Badge](https://img.shields.io/badge/LinkedIn-gabrielbisporibeiro-black?style=flat&logo=Linkedin&logoColor=white&labelColor=gray&color=black&link=www.linkedin.com%2Fin%2Fgabrielbisporibeiro)
+
+
+## Status do Projeto
+
+<h3 align="center">
+	<b>🚧  React Select 🚀 Em construção...  🚧<b>
+</h3>
 
 ## Licença
 
