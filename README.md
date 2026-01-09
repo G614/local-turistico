@@ -16,7 +16,7 @@
 
 <br>
 
-<h2 align="center"><b><a href="#">Veja o Site</a></b></h2>
+<h2 align="center"><b><a href="https://g614.github.io/local-turistico/">Veja o Site</a></b></h2>
 
 ## Tabela de Conteúdos
 
